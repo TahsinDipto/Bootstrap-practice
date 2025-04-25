@@ -68,12 +68,48 @@
                 <input type="range" class="form-range" max="100" min="0">
             </div>
             <div class="mt-4 mb-4">
-                <label class="form-label fs-4 fw-semibold">Range</label>
+                <label class="form-label fw-semibold">Range</label>
                 <input type="range" class="form-range" max="5" min="0" step="0.00001">
             </div>
             <div class="input-group mb-4">
-                <label class="form-label fs-4 fw-semibold input-group-text">Textarea</label>
-                <input type="text" class="form-control" placeholder="Enter text here">
+                <span class="input-group-text">Textarea</span>
+                <input type="text" class="form-control" placeholder="Enter text here" >
+            </div>
+            <div class="input-group input-group-sm mb-4">
+                <input type="text" class="form-control" >
+                <span class="input-group-text">Textarea</span>
+            </div>
+            <div class="input-group input-group-lg mb-4">
+                <input type="text" class="form-control" >
+                <span class="input-group-text">Textarea</span>
+            </div>
+            <div class="input-group mb-4">
+                <button class="btn dropdown-toggle border-secondary btn-outline-danger text-dark bg-light" data-bs-toggle="dropdown">dropdown</button>
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Item 1</a></li>
+                    <li><a href="#" class="dropdown-item">Item 2</a></li>
+                    <li><a href="#" class="dropdown-item">Item 3</a></li>
+                    <li class="dropdown-divider"></li>
+                    <li><a href="#" class="dropdown-item">Item 4</a></li>
+                    <li><a href="#" class="dropdown-item">Item 5</a></li>
+                </ul>
+                <input type="text" class="form-control" >
+            </div>
+        </div>
+        <div class="container py-4">
+            <h2 class="mb-4">Floating</h2>
+            <!-- ask to vaiya -->
+            <div class="mb-4 form-floating">
+                <input type="text" class="form-control" placeholder="">
+                <label>Floating input</label>
+            </div>
+            <div class="mb-4 form-floating ">
+                <input type="text" class="form-control is-invalid" placeholder="">
+                <label>Floating input</label>
+            </div>
+            <div class="mb-4 form-floating ">
+                <input type="text" class="form-control is-valid" placeholder="">
+                <label>Floating input</label>
             </div>
         </div>
     </section>
