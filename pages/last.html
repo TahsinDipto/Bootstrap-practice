@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
+    <link rel="stylesheet" href="../css/boot.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>port</title>
+</head>
+<body>
+    <h1 class="text-center text-danger fst-italic fs-1 bg-success mb-0 pb-2">Last</h1>
+    <nav class="navbar bg-success">
+        <div class="container">
+            <h4 class="navbar-brand fs-1 fst-italic text-danger">Logo</h4>
+            <ul class="nav nav-tabs">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="./service.html">Service</a></li>
+                <li class="nav-item"><a class="nav-link" href="./port.html">Port</a></li>
+                <li class="nav-item"><a class="nav-link active" href="./last.html">Last</a></li>
+            </ul>
+            <a class="btn bg-warning fs-5 px-3 py-1" href="./info.html">Info</a>
+        </div>
+    </nav>
+    <section>
+        <div class="container py-4">
+            <div>
+                <p>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#item1" role="button">Toggle first element</a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#item2">Toggle second element</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse">Toggle both elements</button>
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="item1">
+                            <div class="card card-body">
+                                Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="item2">
+                            <div class="card card-body">
+                                Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>
+                    <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#table" type="button">Collapse Table</button>
+                </p>
+                <div id="table" class="collapse">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr class="">
+                                <th>name</th>
+                                <th>address</th>
+                                <th>class</th>
+                                <th>section</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr>
+                                <td>Tahsin</td>
+                                <td>kushtia</td>
+                                <td>8</td>
+                                <td>c</td>
+                            </tr>
+                            <tr>
+                                <td>Tahsin</td>
+                                <td>kushtia</td>
+                                <td>8</td>
+                                <td>c</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-danger" type="button" data-bs-target="#col1" data-bs-toggle="collapse">Collapse Btn</button>
+                <button class="btn btn-danger" type="button" data-bs-target="#col2" data-bs-toggle="collapse">Collapse Btn</button>
+                <button class="btn btn-danger" type="button" data-bs-target="#col1
+                " data-bs-toggle="collapse">Collapse Btn</button>
+                <div class="row my-4">
+                    <div class="col">
+                        <div class="collapse collapse-m" id="col1">
+                            <div class="card">
+                                <img src="https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img" class="w-100 card-img-top" style="height: 240px;">
+                                <div class="card-body">
+                                    <div class="card-title">Collase check</div>
+                                    <div class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolores dolorum numquam?
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="collapse collapse-m" id="col2">
+                            <div class="card">
+                                <img src="https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img" class="w-100 card-img-top" style="height: 240px;">
+                                <div class="card-body">
+                                    <div class="card-title">Collase check</div>
+                                    <div class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolores dolorum numquam?
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- problem -->
+            <h2 class="my-4 fs-1 text-center">Offcanvas</h2>
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvas" role="button">
+                Link with href
+            </a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+              Button with data-bs-target
+            </button>
+            <div class="offcanvas offcanvas-start" id="offcanvas">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvas">Offcanvas Try</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nostrum quia minus temporibus molestiae id, quidem enim dolores ex architecto aspernatur accusamus dolore sequi at voluptate doloribus excepturi.
+                  </div>
+                  <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+            <h2 class="fs-1 ">Toast</h2>
+            <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+            <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+              <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <strong class="me-auto">Bootstrap</strong>
+                  <small>11 mins ago</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                  Hello, world! This is a toast message.
+                </div>
+              </div>
+            </div>
+
+
+
+            <button type="button" class="btn btn-primary d-block mt-4" id="liveToastBtn" data-bs-toggle="toast" data-bs-target="#liveToast">Show live toast2</button>
+
+            <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+              <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <strong class="me-auto">Bootstrap</strong>
+                  <small>11 mins ago</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                  Hello, world! This is a toast message.
+                </div>
+              </div>
+            </div>
+
+            <h3 class="fs-1 my-4">Tooltips</h3>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+                Tooltip on top
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+              Tooltip on right
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+              Tooltip on bottom
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+              Tooltip on left
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+                Tooltip with HTML
+            </button>
+        </div>
+    </section>
+
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../js/boot.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
